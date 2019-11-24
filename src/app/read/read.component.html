@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row">
+    <div class="table-responsiv">
+      <h1>NGRX Twitter Stream</h1>
+      <div style="max-height: 700px; overflow: scroll;border-radius: 10px;">
+
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Screen Name</th>
+              <th scope="col">Profile Image</th>
+              <th scope="col">Name</th>
+              <th scope="col">Description</th>
+              <th scope="col">country</th>
+            </tr>
+          </thead>
+          <tbody id="myTable">
+            <tr *ngFor="let twitter of twitter; let i = index;">
+              <td>{{twitter.message.user.screen_name}}</td>
+              <td><img src='{{twitter.message.user.profile_image_url}}'></td>
+              <td>{{ twitter.message.user.name }}</td>
+              <td>{{ twitter.message.user.description}}</td>
+              <td>{{ twitter.message.user.location }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
