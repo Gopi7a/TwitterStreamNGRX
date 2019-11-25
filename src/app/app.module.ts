@@ -8,7 +8,6 @@ import { AppComponent } from './app.component';
 import { TwitterListComponent } from './twitter-list/twitter-list.component';
 import { PubNubAngular } from 'pubnub-angular2';
 import { ReadComponent } from './read/read.component';
-import { CreateComponent } from './create/create.component';
 import { EffectsModule } from '@ngrx/effects';
 import { TableModule } from 'primeng/table';
 
@@ -19,8 +18,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
    declarations: [
       AppComponent,
       TwitterListComponent,
-      ReadComponent,
-      CreateComponent
+      ReadComponent
    ],
    imports: [
       BrowserModule,
