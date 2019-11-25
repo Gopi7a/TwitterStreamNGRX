@@ -10,7 +10,7 @@ export const REMOVE_TWITTER = '[TWITTER] Remove';
 // Section 3
 export class AddTwitter implements Action {
     readonly type = ADD_TWITTER;
-    constructor(public payload: any) { 
+    constructor(public payload: Twitter) { 
         console.log(payload, this.type, 'payload');
      }
 }
