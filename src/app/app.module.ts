@@ -5,7 +5,6 @@ import { reducer } from './reducers/twitter.reducers';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TwitterListComponent } from './twitter-list/twitter-list.component';
 import { PubNubAngular } from 'pubnub-angular2';
 import { ReadComponent } from './read/read.component';
 import { EffectsModule } from '@ngrx/effects';
@@ -17,7 +16,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
    declarations: [
       AppComponent,
-      TwitterListComponent,
       ReadComponent
    ],
    imports: [

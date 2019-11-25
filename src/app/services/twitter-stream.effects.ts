@@ -15,7 +15,7 @@ export class TwitterStreamEffects {
   //     ofType('[TWITTER] Add'),
   //     mergeMap(() => this.twitterListService.getAll()
   //       .pipe(
-  //         map(data => ()),
+  //         map(data => { return new TwitterActions.AddTwitter(data) }),
   //         catchError(() => EMPTY)
   //       )
   //     )
