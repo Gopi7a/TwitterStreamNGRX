@@ -23,7 +23,7 @@
     "@ngrx/effects": "^8.5.2",
     "@ngrx/store": "^8.5.2",
     "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "primeicons": "^2.0.0",
     "primeng": "^8.1.1",
     "pubnub": "^4.27.1",
